@@ -10,7 +10,7 @@ Improve a solver for expert-level multiple choice questions.
 
 ## Dev/Test Split
 
-- `bash eval/eval.sh` — evaluates on the **dev set** (validation set). Use during experimentation.
+- `bash eval/eval.sh` — evaluates on the **train set** (validation set). Use during experimentation.
 - `bash eval/eval.sh --test` — evaluates on the **full test set** (500 from test). Use for submission.
 - `bash eval/eval.sh --ids 0,3,5` — evaluates on specific problem indices (for debugging).
 
